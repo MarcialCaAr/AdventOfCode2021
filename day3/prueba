@@ -1,0 +1,25 @@
+# from collections import Counter
+
+# square = {2: 4, -3: 9, -1: 1, -2: 4}
+
+# # the largest key
+# key1 = max(square)
+# print("The largest key:", key1)    # 2
+
+# square = Counter(square)
+# print(square.get(-3))
+# # the key whose value is the largest
+# key2 = max(square, key = lambda k: square[k])
+# key2 = max(square, key = square.get)
+
+# print("The key with the largest value:", key2)    # -3
+
+# getting the largest value
+# print("The largest value:", square[key2])    # 9
+
+
+list1 = [1,2,3,4,5]
+list2 = [6,7,8,9]
+
+for l1,l2 in enumerate(zip(list1,list2)):
+    print(l1,l2)
